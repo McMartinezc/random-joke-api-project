@@ -13,3 +13,13 @@ async function getRandomJoke() {
     jokeDIV.textContent = datos.value;
 }
 
+// button.addEventListener("click", async () => {
+//     const joke = await getRandomJoke();
+//     jokeDIV.textContent = joke;
+// });
+
+// async function getRandomJoke() {
+//     const respuesta = await fetch("https://api.chucknorris.io/jokes/random");
+//     const datos = await respuesta.json();
+//     return datos.value; // Retorna la broma en lugar de asignarla a jokeDIV.textContent
+// }
